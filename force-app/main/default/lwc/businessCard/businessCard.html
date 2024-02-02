@@ -1,0 +1,20 @@
+<template>
+    <lightning-card  title="Business Card">
+        <div class="slds-var-m-around_medium">
+        <lightning-button label="New" slot="actions"></lightning-button>
+        <h1>{Name}</h1>
+        <div class="FieldNames">
+            <ul>
+                <li><a href="mailto:{Email}">{Email}</a></li>
+                <li><a href="tel:{Phone}">{Phone}</a></li>
+                <li>{Account.Name}</li>
+                <li>{Pa_Mrr__c}</li>
+            </ul>    
+        </div>
+        <hr />
+        <p slot="footer">
+            <lightning-button label="More Info" slot="actions"></lightning-button>
+        </p>
+        </div>
+    </lightning-card>
+</template>
