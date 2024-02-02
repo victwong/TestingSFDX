@@ -29,7 +29,7 @@
                 <field>Title__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>Email__c</field>
             </layoutItems>
         </layoutColumns>
@@ -39,7 +39,7 @@
                 <field>OwnerId</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>ReadOnly</behavior>
                 <field>Phone__c</field>
             </layoutItems>
             <layoutItems>
